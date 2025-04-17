@@ -1,31 +1,66 @@
 .confirmation-page {
   text-align: center;
-  margin-top: 50px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #28a745;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 40px;
 }
 
 .confirmation-page h1 {
-  color: green;
-  font-size: 24px;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.confirmation-page p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .confirmation-page a {
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
-  color: blue;
 }
 
 .back-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4285f4;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  width: 100%;
+  padding: 14px;
+  background-color: white;
+  color: #20b2aa;
+  border: 1px solid #20b2aa;
+  border-radius: 6px;
   cursor: pointer;
-  margin-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .back-button:hover {
-  background-color: #3367d6;
+  background-color: rgba(32, 178, 170, 0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
